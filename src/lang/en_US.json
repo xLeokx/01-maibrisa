@@ -1,0 +1,8 @@
+{
+    "menu": {
+        "snacks": "snacks",
+        "cocktails": "cocktails",
+        "non-alcoholic": "non-alcoholic cocktails",
+        "beverages": "beverages"
+    }
+}

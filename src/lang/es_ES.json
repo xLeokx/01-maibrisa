@@ -1,0 +1,9 @@
+{
+    "menu": {
+        "snacks": "comida",
+        "cocktails": "cocteles",
+        "non-alcoholic": "cocteles 0,0",
+        "beverages": "bebidas"
+       
+    }
+}
