@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="appMenu">
     <link
       href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css"
       rel="stylesheet"
@@ -77,6 +77,23 @@ export default {
 };
 </script>
 <style>
+.appMenu {
+  background-image: url("../assets/logoinitial.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  overflow: hidden;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+}
 .submitHeader {
   margin: 60px 0;
 }
@@ -87,12 +104,13 @@ export default {
   font-size: 18px;
 }
 .claimSteps {
+  margin-top: 35px !important;
+  margin-bottom: 35px !important;
   width: 100%;
   height: 160px;
   background: rgba(255, 255, 255, 0.733);
-
-  border: 1px solid #e2b053;
-  border-radius: 15px;
+  border: 2px solid #e2b053;
+  border-radius: 5px;
   text-align: center;
   position: relative;
   margin: 0 auto;
@@ -124,31 +142,32 @@ export default {
   margin-left: 33.3%;
   width: 33.3%;
 }
-@media (min-width: 1200px) {
-  .submitHeader {
-    margin: 60px 40px;
-  }
-}
-@media (max-width: 991px) {
-  .claimSteps {
-    margin: 30px auto;
-  }
-  .submitHeader {
-    margin-top: 60px;
-    margin-bottom: 0;
-    text-align: center;
-  }
-}
+
 .initiallogo {
   background-image: url("../assets/logoinitial.jpg");
-  background-size: cover;
-  background-position: center;
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
   width: 100%;
-  height: 70vh;
+  height: 100vh;
   margin: auto;
   padding: auto;
   text-align: center;
   overflow: hidden;
 }
+/*@keyframes clipMe {
+  0% {
+    border-color: rgba(58, 58, 58, 0.295);
+    background: rgba(255, 255, 255, 0.151);
+  }
+  50% {
+    border-color: #e2b053;
+    background: rgba(248, 248, 248, 0.973);
+  }
+  100% {
+    border-color: rgba(58, 58, 58, 0.37);
+    background: rgba(255, 255, 255, 0.151);
+  }
+} */
 </style>
